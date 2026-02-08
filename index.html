@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATOM AI | Next-Gen Solana Infrastructure</title>
+    <link rel="icon" href="bot_pfp.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <header>
+        <div class="container container-header">
+            <div class="logo">
+                <div class="logo-icon">
+                    <img src="bot_pfp.jpg" alt="ATOM AI Logo">
+                </div>
+                <span>ATOM AI</span>
+            </div>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+
+            <nav>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#dex">DEX</a></li>
+                    <li><a href="https://t.me/atomaisniperbot" target="_blank">Telegram Bot</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="solar-system" id="solar-system">
+                <div class="sun"></div>
+                <!-- Orbits and planets will be injected by JS or kept static if preferred -->
+                <div class="orbit"></div>
+                <div class="orbit"></div>
+                <div class="orbit"></div>
+                <div class="orbit"></div>
+                <div class="orbit"></div>
+                <div class="orbit"></div>
+                <div class="orbit"></div>
+                <div class="orbit"></div>
+            </div>
+            <div class="container hero-content">
+                <h1>THE FUTURE OF AI<br>TRADING ON-CHAIN.</h1>
+                <p>Experience the ultimate Cryptocurrency, Memecoin and ai algo powered trading suite. MEV protection
+                    and HFT trading , lightning-fast memecoin sniper, and deep market insights powered by ATOM AI.</p>
+                <div class="hero-actions">
+                    <a href="https://t.me/atomaisniperbot" class="btn btn-primary">Start Trading Now</a>
+                    <div class="hero-socials">
+                        <a href="https://t.me/atomaisniperbot" class="social-btn" aria-label="Telegram">
+                            <i data-lucide="send"></i>
+                        </a>
+                        <a href="https://x.com/atomai" class="social-btn" aria-label="X">
+                            <i data-lucide="twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" id="features">
+            <div class="features features-sync">
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i data-lucide="trending-up"></i>
+                    </div>
+                    <h3>AtomAi Trending</h3>
+                    <ul>
+                        <li><span class="highlight">Omni-Chain:</span> Algo coin picker for SOL, ETH & BSC launches.
+                        </li>
+                        <li><span class="highlight">Payment Gateways:</span> Seamless paid promotions for verified
+                            developers.</li>
+                        <li><span class="highlight">Auto-Trading:</span> Automated execution with a dedicated
+                            profitability algorithm.</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i data-lucide="zap"></i>
+                    </div>
+                    <h3>AtomAI Sniper Bot</h3>
+                    <ul>
+                        <li><span class="highlight">Memecoin Sniping:</span> Elite execution on SOL & ETH tokens.</li>
+                        <li><span class="highlight">ECA Launch Sniping:</span> Capture pre-launch opportunities
+                            instantly.</li>
+                        <li><span class="highlight">Copytrading:</span> Clone successful trades from stipulated whale
+                            wallets.</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i data-lucide="shield-check"></i>
+                    </div>
+                    <h3>AtomAI MEV Bot</h3>
+                    <ul>
+                        <li><span class="highlight">Autonomous MEV:</span> Maximize hedging between blocks on-chain.
+                        </li>
+                        <li><span class="highlight">Cross-Chain MEV:</span> Elite performance on both Ethereum and
+                            Solana.</li>
+                        <li><span class="highlight">Algorithmic Hedging:</span> Proprietary tech to secure block-space
+                            value.</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon-box">
+                        <i data-lucide="bar-chart-3"></i>
+                    </div>
+                    <h3>AtomAi DEX</h3>
+                    <ul>
+                        <li><span class="highlight">Pro Dashboard:</span> Advanced tools for SOL, ETH & BSC memetokens.
+                        </li>
+                        <li><span class="highlight">Wallet Bridge:</span> Linkable to AtomAI Sniper for unified
+                            execution.</li>
+                        <li><span class="highlight">Algo Filters:</span> Preset, paid trading styles based on risk
+                            tolerance.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="container dex-section" id="dex">
+            <h2>ATOM DEX</h2>
+            <p style="color: var(--text-muted); max-width: 600px; margin: 1rem auto;">A high-performance decentralized
+                exchange with deep liquidity and institutional-grade tools.</p>
+
+            <div class="dex-preview">
+                <div class="dex-coming-soon">COMING SOON</div>
+                <div class="dex-ui">
+                    <!-- DEX Sidebar -->
+                    <div class="dex-sidebar-nav">
+                        <div class="dex-nav-item active"><i data-lucide="layout-dashboard"></i></div>
+                        <div class="dex-nav-item"><i data-lucide="arrow-left-right"></i></div>
+                        <div class="dex-nav-item"><i data-lucide="droplets"></i></div>
+                        <div class="dex-nav-item"><i data-lucide="pie-chart"></i></div>
+                        <div class="dex-nav-item"><i data-lucide="zap"></i></div>
+                        <div class="dex-nav-item"><i data-lucide="settings"></i></div>
+                    </div>
+
+                    <div class="dex-content">
+                        <!-- DEX Header -->
+                        <div class="dex-app-header">
+                            <div class="dex-header-left">
+                                <div class="dex-app-logo">ATOM AI</div>
+                                <div class="dex-search"><i data-lucide="search"></i> Search Tokens...</div>
+                            </div>
+                            <div class="dex-header-right">
+                                <div class="dex-network">Solana <span class="dot"></span></div>
+                                <div class="dex-wallet-btn">Connect Wallet</div>
+                            </div>
+                        </div>
+
+                        <div class="dex-dashboard">
+                            <!-- Left: Analytics & Assets -->
+                            <div class="dex-col-left">
+                                <div class="dex-widget portfolio">
+                                    <div class="dex-title">Portfolio Performance</div>
+                                    <div class="dex-portfolio-val">$18,442.20 <span class="trend up">+12.4%</span></div>
+                                    <div class="dex-chart-mini"></div>
+                                </div>
+                                <div class="dex-widget">
+                                    <div class="dex-title">Whale Tracker (Live)</div>
+                                    <div class="dex-whale-feed">
+                                        <div class="whale-item">🐋 500 SOL -> PEPE <span class="time">2m ago</span>
+                                        </div>
+                                        <div class="whale-item">🐋 1,200 SOL -> ETH <span class="time">5m ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dex-widget algo-panel">
+                                    <div class="dex-title">ATOM AI ALGO CONTROL</div>
+                                    <div class="algo-selection">
+                                        <div class="algo-option">ALGO 1</div>
+                                        <div class="algo-option active">ALGO 2</div>
+                                        <div class="algo-option">ALGO 3</div>
+                                    </div>
+                                    <div class="algo-status">Model Optimized for Solana</div>
+                                </div>
+                                <div class="dex-widget">
+                                    <div class="dex-title">Trending Pairs</div>
+                                    <div class="dex-asset-item"><span>BTC/SOL</span> <span class="trend up">+4.2%</span>
+                                    </div>
+                                    <div class="dex-asset-item">pepe/SOL</span> <span class="trend up">+182.5%</span>
+                                    </div>
+                                    <div class="dex-asset-item"><span>BNB/SOL</span> <span
+                                            class="trend down">-0.5%</span></div>
+                                </div>
+                            </div>
+
+                            <!-- Center: Main Trade & History -->
+                            <div class="dex-col-main">
+                                <div class="dex-chart-container">
+                                    <div class="dex-chart-header">
+                                        <div class="dex-pair">SOL / USD <span class="dex-price-label">$142.50</span>
+                                        </div>
+                                        <div class="dex-timeframes">1M 5M 15M 1H 4H 1D</div>
+                                    </div>
+                                    <div class="dex-chart-main">
+                                        <div class="dex-chart-line"></div>
+                                    </div>
+                                </div>
+                                <div class="dex-widget order-book-expanded">
+                                    <div class="dex-title">Live Order Book</div>
+                                    <div class="order-grid">
+                                        <div class="order-side sell">
+                                        </div>
+                                        <div class="order-side buy">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Right: Swap & Execution -->
+                            <div class="dex-col-right">
+                                <div class="dex-widget swap-panel">
+                                    <div class="dex-title">Execution</div>
+                                    <div class="swap-tabs">
+                                        <span class="active">Market</span> <span>Limit</span> <span>Sniper</span>
+                                    </div>
+                                    <div class="swap-input">Pay: 10 SOL</div>
+                                    <div class="swap-input">Receive: 24,500 PEPE</div>
+                                    <div class="swap-details">
+                                        <span>Price Impact: &lt;0.1%</span>
+                                        <span>Route: Jupiter V6</span>
+                                        <span>Slippage: Auto</span>
+                                    </div>
+                                    <button class="dex-btn">Insta Swap</button>
+                                </div>
+                                <div class="dex-widget stats-mini">
+                                    <div class="stat-item">24h Vol: $4.2M</div>
+                                    <div class="stat-item">Liquidity: $12.8M</div>
+                                    <div class="stat-item">MEV Protected: YES</div>
+                                </div>
+                                <div class="dex-widget yield">
+                                    <div class="dex-title">Stake & Earn</div>
+                                    <div class="yield-item">SOL-ATOM APY: <span class="trend up">24.5%</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 ATOM AI. Powered by Solana.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
